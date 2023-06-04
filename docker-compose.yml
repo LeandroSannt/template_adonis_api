@@ -1,0 +1,9 @@
+version: "3"
+services:
+  mysql:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql@123
+      MYSQL_DATABASE: teste
+    ports:
+      - "3395:3306"
